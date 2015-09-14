@@ -56,7 +56,7 @@ public class Person {
    }
    public static void printNames(Gender _gender)
    {
-       System.out.println(_gender+"s:");
+       System.out.println("All "+_gender+"s:");
        for(Person temp: people)
        {
            if(temp.gender==_gender)
@@ -65,7 +65,7 @@ public class Person {
    }
      public static void printNames()
    {
-       System.out.println("All names:");
+       System.out.println("Everybody's name:");
        for(Person temp: people)
        {
                System.out.println(temp.getName());

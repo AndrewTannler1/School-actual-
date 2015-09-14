@@ -18,13 +18,13 @@ public class School {
         System.out.println(" ");
         Person.printNames(Person.Gender.Female);
         System.out.println(" ");
+        Person.printWeight();
+        System.out.println(" ");
         System.out.println(joe);
         System.out.println(jack);
         System.out.println(john);
         System.out.println(jill);
         System.out.println(jessica);
-        System.out.println(jenifer);
-        System.out.println(" ");
-        Person.printWeight();
+        System.out.println(jenifer);  
     }
 }
